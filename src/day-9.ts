@@ -15,7 +15,7 @@ type Reverse<
   ? Reverse<Tail, `${Head}${Acc}`>
   : Acc;
 
-test("Day One", () => {
+test("Day Nine", () => {
   type test_0_actual = Reverse<"rehsaD">;
   //   ^?
   type test_0_expected = "Dasher";
