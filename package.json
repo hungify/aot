@@ -1,0 +1,19 @@
+{
+  "name": "aot",
+  "version": "1.0.0",
+  "description": "My solution to the Advent of Typescript 2023",
+  "scripts": {
+    "test": "vitest --typecheck"
+  },
+  "keywords": [
+    "typescript",
+    "advent of typescript"
+  ],
+  "author": "hungify",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.11",
+    "typescript": "^5.3.3",
+    "vitest": "^1.1.0"
+  }
+}
